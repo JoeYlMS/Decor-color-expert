@@ -39,7 +39,7 @@
     font-display: swap;
 }
 
-
+/*===>>>*/
 
 /*@font-face {*/
 /*    font-family: 'Gothic A1';*/
@@ -53,6 +53,8 @@
 /*    font-style: normal;*/
 /*    font-display: swap;*/
 /*}*/
+
+/*====>>>*/
 
 * {
     margin: 0;
@@ -392,6 +394,10 @@ h1 {
     border-radius: 20px;
 }
 
+.section_service_option_h5{
+    margin-bottom: 10px;
+}
+
 .section_service_option h5 {
     font-family: 'Gothic A1';
     font-style: normal;
@@ -399,7 +405,6 @@ h1 {
     font-size: 24px;
     line-height: 31px;
     color: #000000;
-    margin-bottom: 10px;
 }
 
 .section_service_option h4 {
@@ -415,6 +420,10 @@ h1 {
     background-color: #4C6071;
     padding: 30px 50px 30px 30px;
     border-radius: 30px;
+}
+
+.form-choice .d-flex{
+    align-items: inherit;
 }
 
 .form-choice-container{
