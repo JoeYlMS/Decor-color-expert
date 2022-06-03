@@ -1,0 +1,89 @@
+@media only screen and (max-width: 1025px){
+    .container{
+        max-width: 980px;
+    }
+
+    .two-section .container{
+        max-width: 980px;
+        justify-content: inherit;
+    }
+
+    .section_service_option .container{
+        max-width: 920px;
+    }
+
+    nav{
+        width: 390px;
+    }
+
+    header li a, header li{
+        margin: 0;
+    }
+
+    .contact{
+        width: 270px;
+        justify-content: space-between;
+    }
+
+    .contact li. .contact li a{
+        margin: 0;
+    }
+
+    /*============>>>>>>>>>>>>>>*/
+
+    .about_us{
+        max-width: 375px;
+        margin-right: 20px
+    }
+
+    .section_Why_us_box{
+        max-width: 175px;
+    }
+
+    .form-choice-container{
+        max-width: 325px;
+    }
+
+    .choice-button{
+        max-width: 485px;
+    }
+
+    .choice-button-back{
+        padding: 20px 89px;
+        margin-right: 8px;
+    }
+
+    .choice-button-next{
+        padding: 20px 89px;
+    }
+}
+
+@media only screen and (max-width: 927px) {
+    .container {
+        max-width: 880px;
+    }
+
+    .two-section .container {
+        max-width: 800px;
+        justify-content: inherit;
+    }
+
+    .section_Why_us_container_box{
+        flex-wrap: wrap;
+    }
+
+    .section_Why_us_box{
+        max-width: 270px;
+        margin-bottom: 20px;
+    }
+
+    .section_service_option .container {
+        max-width: 840px;
+    }
+
+    .section_Portfolio_box{
+        max-width: 410px;
+    }
+
+
+}
