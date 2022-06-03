@@ -84,6 +84,189 @@
     .section_Portfolio_box{
         max-width: 410px;
     }
+}
 
+@media only screen and (max-width: 897px){
+    .container{
+        max-width: 838px;
+    }
 
+    .two-section .container{
+        max-width: 838px;
+        flex-direction: column-reverse;
+    }
+
+    .about_us{
+        max-width: 838px;
+    }
+
+    .section_service_option .container{
+        max-width: 670px;
+    }
+
+    .form-choice form{
+        flex-direction: column;
+    }
+    .form-choice-container, .choice-button{
+        max-width: 669px;
+    }
+    .choice-button-back{
+        padding: 20px 115px;
+        margin-right: 8px;
+    }
+
+    .choice-button-next{
+        padding: 20px 115px;
+    }
+
+    .section_form .container{
+        flex-wrap: wrap;
+    }
+
+    .form{
+        width: 838px;
+    }
+
+    .section_form_image_room_box{
+        max-width: inherit;
+        width: 838px;
+    }
+
+    footer .container{
+        flex-wrap: wrap;
+    }
+
+    .footer_img_map_box{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 769px){
+    .container{
+        max-width: 720px;
+    }
+
+    .two-section .container{
+        max-width: 720px;
+        flex-direction: column-reverse;
+    }
+
+    .about_us{
+        max-width: 720px;
+    }
+
+    .section_service_option .container{
+        max-width: 670px;
+    }
+
+    .form-choice form{
+        flex-direction: column;
+    }
+    .form-choice-container, .choice-button{
+        max-width: 669px;
+    }
+    .choice-button-back{
+        padding: 20px 115px;
+        margin-right: 8px;
+    }
+
+    .choice-button-next{
+        padding: 20px 115px;
+    }
+
+    .section_form .container{
+        flex-wrap: wrap;
+    }
+
+    .form{
+        width: 720px;
+    }
+
+    .section_form_image_room_box{
+        max-width: inherit;
+        width: 720px;
+    }
+
+    footer .container{
+        flex-wrap: wrap;
+    }
+
+    .footer_img_map_box{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 376px){
+    .container{
+        max-width: 336px;
+    }
+
+    .two-section .container{
+        max-width: 336px;
+        flex-direction: column-reverse;
+    }
+
+    .about_us{
+        max-width: 336px;
+    }
+
+    h1{
+        font-family: 'Futura';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 31px;
+        color: #FFFFFF;
+        border: 1px solid #000000;
+        text-shadow: 0 0 131px #000000;
+    }
+
+    article p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    .section_service_option .container{
+        max-width: 276px;
+    }
+
+    .form-choice form{
+        flex-direction: column;
+    }
+    .form-choice-container, .choice-button{
+        max-width: 276px;
+    }
+    .choice-button-back{
+        padding: 20px 80px;
+        margin-right: 0;
+    }
+
+    .choice-button-next{
+        padding: 20px 80px;
+    }
+
+    .section_form .container{
+        flex-wrap: wrap;
+    }
+
+    .form{
+        width: 336px;
+    }
+
+    .section_form_image_room_box{
+        max-width: inherit;
+        width: 336px;
+    }
+
+    footer .container{
+        flex-wrap: wrap;
+    }
+
+    .footer_img_map_box{
+        width: 100%;
+    }
 }
